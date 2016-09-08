@@ -1,0 +1,53 @@
+{
+  "uid" : "c935a541b6f14e5a",
+  "name" : "catalogTest",
+  "title" : "Catalog test",
+  "time" : {
+    "start" : 1473261060451,
+    "stop" : 1473261065162,
+    "duration" : 4711
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "527a9384791289ec",
+    "name" : "Surefire suite : Surefire test",
+    "title" : "Surefire suite : Surefire test"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "(0)",
+    "source" : "efe4d385-1ef6-4f85-be06-91ab98e0c127-attachment",
+    "type" : "image/pmg",
+    "size" : 623459,
+    "uid" : "b04bda8cbf146942"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "WIN-52KHUB8PPPL"
+  }, {
+    "name" : "thread",
+    "value" : "460@WIN-52KHUB8PPPL.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Surefire suite : Surefire test"
+  }, {
+    "name" : "suite-title",
+    "value" : "Surefire suite : Surefire test"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

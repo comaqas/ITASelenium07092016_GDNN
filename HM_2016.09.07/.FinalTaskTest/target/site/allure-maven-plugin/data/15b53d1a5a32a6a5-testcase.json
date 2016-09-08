@@ -1,0 +1,53 @@
+{
+  "uid" : "15b53d1a5a32a6a5",
+  "name" : "contactUsPageFormFillingAndErrorMessageReceiving",
+  "title" : "Contact us page form filling and error message receiving",
+  "time" : {
+    "start" : 1473261065172,
+    "stop" : 1473261068862,
+    "duration" : 3690
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "527a9384791289ec",
+    "name" : "Surefire suite : Surefire test",
+    "title" : "Surefire suite : Surefire test"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "(0)",
+    "source" : "06c3d6f5-1d88-4ecc-aebd-a2a323a506c0-attachment",
+    "type" : "image/pmg",
+    "size" : 82880,
+    "uid" : "789751ca5e13132"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "WIN-52KHUB8PPPL"
+  }, {
+    "name" : "thread",
+    "value" : "460@WIN-52KHUB8PPPL.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Surefire suite : Surefire test"
+  }, {
+    "name" : "suite-title",
+    "value" : "Surefire suite : Surefire test"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1473261956616" stop="1473261976304" version="1.4.16" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : .FinalTaskTest</name>
+    <title>Default Suite : .FinalTaskTest</title>
+    <test-cases>
+        <test-case start="1473261968081" stop="1473261971655" status="passed">
+            <name>contactUsPageFormFillingAndErrorMessageReceiving</name>
+            <steps/>
+            <attachments>
+                <attachment title="(0)" source="83e398f1-3c93-41eb-b252-00e515ea1245-attachment" type="image/pmg"/>
+            </attachments>
+            <labels>
+                <label name="host" value="WIN-52KHUB8PPPL"/>
+                <label name="thread" value="12520@WIN-52KHUB8PPPL.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1473261971661" stop="1473261974474" status="passed">
+            <name>contactUsPageFormFillingAndSuccessfulMessageReceiving</name>
+            <steps/>
+            <attachments>
+                <attachment title="(0)" source="279f3eba-b562-40af-9079-14ce29eaea2d-attachment" type="image/pmg"/>
+            </attachments>
+            <labels>
+                <label name="host" value="WIN-52KHUB8PPPL"/>
+                <label name="thread" value="12520@WIN-52KHUB8PPPL.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

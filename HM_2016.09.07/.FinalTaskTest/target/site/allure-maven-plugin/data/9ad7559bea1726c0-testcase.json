@@ -1,0 +1,53 @@
+{
+  "uid" : "9ad7559bea1726c0",
+  "name" : "searchTest",
+  "title" : "Search test",
+  "time" : {
+    "start" : 1473261097138,
+    "stop" : 1473261101524,
+    "duration" : 4386
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "527a9384791289ec",
+    "name" : "Surefire suite : Surefire test",
+    "title" : "Surefire suite : Surefire test"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "(0)",
+    "source" : "16407532-c3fd-44cb-891a-5c8971957258-attachment",
+    "type" : "image/pmg",
+    "size" : 119865,
+    "uid" : "c862edc52494c0e7"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "WIN-52KHUB8PPPL"
+  }, {
+    "name" : "thread",
+    "value" : "460@WIN-52KHUB8PPPL.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Surefire suite : Surefire test"
+  }, {
+    "name" : "suite-title",
+    "value" : "Surefire suite : Surefire test"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

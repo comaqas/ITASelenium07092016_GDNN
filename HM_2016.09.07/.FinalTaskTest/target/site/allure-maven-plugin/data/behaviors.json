@@ -1,0 +1,103 @@
+{
+  "features" : [ {
+    "title" : "Without feature",
+    "statistic" : {
+      "total" : 7,
+      "passed" : 6,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 1
+    },
+    "stories" : [ {
+      "uid" : "88b82931cb658aee",
+      "title" : "Without story",
+      "statistic" : {
+        "total" : 7,
+        "passed" : 6,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 1
+      },
+      "testCases" : [ {
+        "uid" : "c935a541b6f14e5a",
+        "name" : "catalogTest",
+        "title" : "Catalog test",
+        "time" : {
+          "start" : 1473261060451,
+          "stop" : 1473261065162,
+          "duration" : 4711
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "15b53d1a5a32a6a5",
+        "name" : "contactUsPageFormFillingAndErrorMessageReceiving",
+        "title" : "Contact us page form filling and error message receiving",
+        "time" : {
+          "start" : 1473261065172,
+          "stop" : 1473261068862,
+          "duration" : 3690
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "22027034b1281395",
+        "name" : "contactUsPageFormFillingAndSuccessfulMessageReceiving",
+        "title" : "Contact us page form filling and successful message receiving",
+        "time" : {
+          "start" : 1473261068867,
+          "stop" : 1473261071704,
+          "duration" : 2837
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "957a21949cd89eb5",
+        "name" : "registration",
+        "title" : "Registration",
+        "time" : {
+          "start" : 1473261071706,
+          "stop" : 1473261079101,
+          "duration" : 7395
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "29bf40e7d752f93f",
+        "name" : "searchGoods",
+        "title" : "Search goods",
+        "time" : {
+          "start" : 1473261079104,
+          "stop" : 1473261097135,
+          "duration" : 18031
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "9ad7559bea1726c0",
+        "name" : "searchTest",
+        "title" : "Search test",
+        "time" : {
+          "start" : 1473261097138,
+          "stop" : 1473261101524,
+          "duration" : 4386
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "94da7c16d9f17b97",
+        "name" : "buyGoods",
+        "title" : "Buy goods",
+        "time" : {
+          "start" : 1473261101526,
+          "stop" : 1473261137431,
+          "duration" : 35905
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    } ]
+  } ]
+}
