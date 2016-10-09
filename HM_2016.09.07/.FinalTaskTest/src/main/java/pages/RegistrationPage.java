@@ -2,6 +2,7 @@ package pages;
 
 
 import helpers.LocatorsHelper;
+import helpers.RandomHelper;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -28,12 +29,26 @@ public class RegistrationPage {
     private static final By REGISTRATION_BUTTON_CLICK = LocatorsHelper.get("RegisterButton");
     private static final By MY_ACCOUNT = LocatorsHelper.get("MyAccount");
     private static final By ERROR_MESSAGE = LocatorsHelper.get("ErrorMessage");
+    private static final String firstName = RandomHelper.getFirstNameAndLastName(6);
+    private static final String lastName = RandomHelper.getFirstNameAndLastName(7);
+    private static final String password = RandomHelper.getPassword(10);
+    private static final String day = RandomHelper.getDate();
+    private static final String month = RandomHelper.getMonth();
+    private static final String year = RandomHelper.getYear();
+    private static final String company = RandomHelper.getRandomString();
+    private static final String address = RandomHelper.getRandomString();
+    private static final String addressLine2 = RandomHelper.getRandomString();
+    private static final String city = RandomHelper.getRandomString();
+    private static final String information = RandomHelper.getRandomString();
+    private static final String homePhone = RandomHelper.getPhoneNumber();
+    private static final String mobilePhone = RandomHelper.getPhoneNumber();
+    private static final String postalCode = RandomHelper.getPostCode();
+    private static final String state = "California";
+//    private static final String stateWrong = RandomHelper.getRandomString();
 
 
-    public static void registration(WebDriver driver, String firstName, String lastName, String password,
-                                    String day, String month, String year, String company, String address,
-                                    String addressLine2, String city, String postalCode, String information,
-                                    String homePhone, String mobilePhone, String state) {
+
+    public static void registration(WebDriver driver) {
 
         driver.findElement(RADIO_BUTTON_MR_SELECTION).click();
         driver.findElement(FIRST_NAME_ENTER).sendKeys(firstName);

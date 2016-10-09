@@ -16,6 +16,5 @@ public class SingInTest extends TestBase{
         MainPage.clickSingIn(driver);
         SignInPage.enterMailForAccount(driver,mail, password);
         Assert.assertTrue(SignInPage.checkAccountIsDislayed(driver));
-
     }
 }

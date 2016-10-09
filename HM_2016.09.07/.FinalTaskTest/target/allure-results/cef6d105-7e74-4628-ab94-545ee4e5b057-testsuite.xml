@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1476031691554" stop="1476031709348" version="1.4.16" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : .FinalTaskTest</name>
+    <title>Default Suite : .FinalTaskTest</title>
+    <test-cases>
+        <test-case start="1476031703541" stop="1476031706559" status="passed">
+            <name>noSearchResultTest</name>
+            <steps/>
+            <attachments>
+                <attachment title="(0)" source="10dc506e-6c3c-44d1-a4c4-5ec82cc74659-attachment" type="image/pmg"/>
+            </attachments>
+            <labels>
+                <label name="host" value="WIN-52KHUB8PPPL"/>
+                <label name="thread" value="11496@WIN-52KHUB8PPPL.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1476031706566" stop="1476031708109" status="passed">
+            <name>searchTest</name>
+            <steps/>
+            <attachments>
+                <attachment title="(0)" source="092b7d15-1f98-4b97-b7df-0902823ec6df-attachment" type="image/pmg"/>
+            </attachments>
+            <labels>
+                <label name="host" value="WIN-52KHUB8PPPL"/>
+                <label name="thread" value="11496@WIN-52KHUB8PPPL.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

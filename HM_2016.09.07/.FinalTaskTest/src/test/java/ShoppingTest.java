@@ -16,7 +16,7 @@ public class ShoppingTest extends TestBase {
     private final String password = "Madluck300889";
 
     @Test
-    public void buyGoodsTest() throws InterruptedException {
+    public void buyGoodsTest()  {
         SearchPage.goodsSearch(driver, textSearch);
         CartPage.shopGoods(driver);
         SignInPage.enterMailForAccount(driver, mail, password);

@@ -9,12 +9,12 @@ import reporting.Listener;
 
 public class CatalogTest extends TestBase{
     @Test
-    public void catalogTest() throws InterruptedException {
+    public void catalogTest()  {
         MainPage.chooseTShort(driver);
         Assert.assertTrue(MainPage.womenTShirtCheck(driver));
     }
     @Test
-    public void selectionOfGoodsTest() throws InterruptedException {
+    public void selectionOfGoodsTest()  {
         MainPage.selectionOfGoodsCheck(driver);
         MainPage.sliderMovePrice(driver);
         Assert.assertTrue(MainPage.checkDress(driver));

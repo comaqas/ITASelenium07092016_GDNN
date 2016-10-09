@@ -40,13 +40,12 @@ public class MainPage {
         clickSingIn.click();
     }
 
-    public static void chooseTShort(WebDriver driver) throws InterruptedException {
+    public static void chooseTShort(WebDriver driver)  {
         WebElement element = driver.findElement(WOMEN_SECTION);
         Actions action = new Actions(driver);
         action.moveToElement(element).perform();
         WebElement subElement = driver.findElement(CHOOSING_CATEGORY_WOMEN_T_SHIRTS);
         action.moveToElement(subElement);
-        Thread.sleep(3000);
         action.click();
         action.perform();
 
@@ -85,7 +84,7 @@ public class MainPage {
 
 
     }
-    public static void sliderMovePrice(WebDriver driver) throws InterruptedException {
+    public static void sliderMovePrice(WebDriver driver){
         WebElement slider = driver.findElement(XXX);
         Actions move = new Actions(driver);
         Action action = (Action) move.dragAndDropBy(slider, -80, 0).build();

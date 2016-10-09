@@ -17,5 +17,4 @@ public class NewsLetterTest extends TestBase {
         Assert.assertTrue(MainPage.successfulSubscriptionMessage(driver));
     }
 
-
 }

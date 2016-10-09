@@ -13,7 +13,7 @@ public class SearchTest extends TestBase {
     private static final String searchText = RandomHelper.getRandomString();
 
     @Test
-    public void searchTest() throws InterruptedException {
+    public void searchTest()  {
         SearchPage.blouseSearch(driver, textSearch);
         Assert.assertTrue(SearchPage.checkSearchResult(driver));
     }

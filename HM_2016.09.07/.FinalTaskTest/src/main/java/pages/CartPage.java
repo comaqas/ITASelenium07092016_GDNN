@@ -21,7 +21,7 @@ public class CartPage {
     public static String informationAboutOrder;
 
 
-    public static void deleteGoods(WebDriver driver) throws InterruptedException {
+    public static void deleteGoods(WebDriver driver) {
         driver.findElement(DELETE_GOODS).click();
     }
 
@@ -48,7 +48,7 @@ public class CartPage {
     }
 
 
-    public static void buyingProcess(WebDriver driver) throws InterruptedException {
+    public static void buyingProcess(WebDriver driver){
         driver.findElement(CLICK_PROCEED_Address).click();
         driver.findElement(CLICK_TERMS_OF_SERVICE).click();
         driver.findElement(CLICK_SHIPPING_PROCCED).click();

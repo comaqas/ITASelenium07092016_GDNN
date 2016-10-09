@@ -1,6 +1,7 @@
 package pages;
 
 import helpers.LocatorsHelper;
+import helpers.RandomHelper;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -16,8 +17,13 @@ public class ContactUsPage {
     private static final By SUCCESSFUL_MESSAGE = LocatorsHelper.get("AlertSuccess");
     private static final By ERROR_MESSAGE = LocatorsHelper.get("AlertDanger");
     private static final String subject = "Customer service";
+    private static final String mail = RandomHelper.getRandomEmail();
+    private static final String order = RandomHelper.getRandomString();
+    private static final String file = "E:\\text.txt";
+    private static final String message = RandomHelper.getRandomSubject();
+    private static final String errorMessage = "";
 
-    public static void messageSending(WebDriver driver, String mail, String order,String file, String message) {
+    public static void messageSending(WebDriver driver) {
         driver.findElement(SUBJECT_HEADING).sendKeys(subject);
         driver.findElement(MAIL_FIELD_ENTER).sendKeys(mail);
         driver.findElement(ORDER_REFERENCE_FIELD).sendKeys(order);
@@ -25,6 +31,20 @@ public class ContactUsPage {
         driver.findElement(MESSAGE_FIELD).sendKeys(message);
         driver.findElement(SEND_MESSAGE_BUTTON).click();
     }
+
+    public static void messageSendingError(WebDriver driver) {
+        driver.findElement(SUBJECT_HEADING).sendKeys(subject);
+        driver.findElement(MAIL_FIELD_ENTER).sendKeys(mail);
+        driver.findElement(ORDER_REFERENCE_FIELD).sendKeys(order);
+        driver.findElement(FILE_UPLOAD).sendKeys(file);
+        driver.findElement(MESSAGE_FIELD).sendKeys(errorMessage);
+        driver.findElement(SEND_MESSAGE_BUTTON).click();
+    }
+
+
+
+
+
     public static boolean successfulMessageCheck(WebDriver driver){
         WebElement successfulMessage = driver.findElement(SUCCESSFUL_MESSAGE);
         if (successfulMessage.isDisplayed()){
